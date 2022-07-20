@@ -258,7 +258,7 @@ def main():
         help='vehicle color: random / fixed')
     argparser.add_argument(
         '--planner_type',
-        default='ImageBased',
+        default='ImageBased_x',
         type=str,
         help='planner type')
     argparser.add_argument(
@@ -268,7 +268,7 @@ def main():
         help='generate waypoints')
     argparser.add_argument(
         '--num_view',
-        default=1,
+        default=8,
         type=int,
         help='number of views')
 
