@@ -93,7 +93,7 @@ python img2video.py (img2video())
 [[Paper]](https://arxiv.org/abs/2204.06171)
 
 ```
-@ARTICLE{sun2021adversarial,
+@ARTICLE{sun2022selfsupervised,
      author={J. {Sun} and S. {Kousik} and D. {Fridovich-Keil} and M. {Schwager}},
      journal={IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)},
      title={Self-Supervised Traffic Advisors: Distributed, Multi-view Traffic Prediction for Smart Cities},
