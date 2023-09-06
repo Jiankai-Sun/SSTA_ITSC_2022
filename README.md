@@ -17,7 +17,7 @@ conda env create -f i2v_pyg_environment.yml
 ```
 Download CARLA 0.9.11 from https://github.com/carla-simulator/carla/releases
 wget -c https://carla-releases.s3.eu-west-3.amazonaws.com/Linux/CARLA_0.9.11.tar.gz
-HOME_DIR=/home/jksun
+HOME_DIR=$HOME
 mkdir -p ${HOME_DIR}/App/CARLA_0.9.11/
 mv CARLA_0.9.11.tar.gz ${HOME_DIR}/App/CARLA_0.9.11/
 cd ${HOME_DIR}/App/CARLA_0.9.11/
@@ -40,7 +40,7 @@ Collect CARLA Data
 ```
 cd ${CARLA_ROOT}  # ${HOME_DIR}/App/CARLA_0.9.11
 ./CarlaUE4.sh
-cd ${msl-traffic-prediction}/packages
+cd ${Curr_DIR}  # Current SSTA code directory
 ln -s /media/data/jack/Apps/CARLA_0.9.11/PythonAPI/carla .
 cd carla_tools
 python manual_control.py --autopilot
